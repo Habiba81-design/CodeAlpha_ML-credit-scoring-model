@@ -1,6 +1,6 @@
 # CodeAlpha_CreditScoringModel
 
-Machine Learning internship project — CodeAlpha (Task 1: Credit Scoring Model).
+Machine Learning internship project: CodeAlpha (Task 1: Credit Scoring Model).
 
 ## Problem
 
