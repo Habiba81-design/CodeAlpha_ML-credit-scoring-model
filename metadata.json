@@ -1,0 +1,48 @@
+{
+  "best_model": "hist_gradient_boosting",
+  "feature_cols": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "age",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "DebtRatio",
+    "MonthlyIncome",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberOfTimes90DaysLate",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "NumberOfDependents",
+    "MonthlyIncome_missing",
+    "NumberOfDependents_missing",
+    "TotalPastDue",
+    "IncomePerDependent",
+    "CreditLinesPerAge"
+  ],
+  "cv_roc_auc": {
+    "logistic_regression": 0.8542721482903232,
+    "random_forest": 0.8627910073557779,
+    "hist_gradient_boosting": 0.8637261703457902
+  },
+  "validation_metrics": {
+    "logistic_regression": {
+      "roc_auc": 0.8546688451628007,
+      "pr_auc": 0.3817248259722211,
+      "precision": 0.2134910575975215,
+      "recall": 0.7572427572427572,
+      "f1": 0.3330770075799187
+    },
+    "random_forest": {
+      "roc_auc": 0.8628508020300537,
+      "pr_auc": 0.39684151195127404,
+      "precision": 0.23535001583782073,
+      "recall": 0.7422577422577422,
+      "f1": 0.35738335738335736
+    },
+    "hist_gradient_boosting": {
+      "roc_auc": 0.8647949514344752,
+      "pr_auc": 0.4033909268586812,
+      "precision": 0.21310587598158678,
+      "recall": 0.7862137862137862,
+      "f1": 0.33532168726033235
+    }
+  }
+}
